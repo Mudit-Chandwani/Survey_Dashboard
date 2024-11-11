@@ -1,87 +1,62 @@
-# 📊 Churn Analysis Dashboard
+
+# Data Professional Survey Dashboard
 
 ## Overview
-This project involves a detailed analysis of customer churn using Excel, SQL, and Power BI. By leveraging these tools, the project presents an interactive dashboard offering insights into churn metrics, customer demographics, geographic distribution, account information, churn reasons, and services used.
+This project presents a **Data Professional Survey Report Dashboard**, which provides insights into the demographics, job satisfaction, and technical preferences of data professionals. The data was initially provided in Excel format, cleaned using both **Excel** and **SQL**, and visualized in **Power BI** to create an interactive and insightful dashboard.
 
 ![img alt](https://github.com/Mudit-Chandwani/Survey_Dashboard/blob/9235afe82f4e7d74c389b3f30962fe48ed4a4b6c/Suvery%20Analyis.png)
 
-## Key Features
-- **Total Customers**: 6,418
-- **New Joiners**: 411
-- **Total Churn**: 1,732
-- **Churn Rate**: 27.0%
+## Project Workflow
 
-### Interactive Visuals
-1. **📅 Demographic Analysis**
-   - Total Churn by Gender:
-     - Female: 621
-     - Male: 1,111 (64.15%)
+### 1. **Data Collection**
+   - The dataset was provided in an Excel file, containing information on survey respondents, including:
+     - Country of residence
+     - Job titles
+     - Preferred programming languages
+     - Salary data
+     - Work-life balance and job satisfaction metrics
 
-2. **📈 Age Group Analysis**
-   - Total Customer and Churn Rate by Age Group:
-     - <20: 0.1k customers, 23.5% churn rate
-     - 20-35: 1.6k customers, 18.1% churn rate
-     - 36-50: 1.8k customers, 24.0% churn rate
-     - >50: 2.8k customers, 31.0% churn rate
+### 2. **Data Cleaning**
+   - **Excel**: 
+     - Handled missing and inconsistent data.
+     - Removed duplicates and reformatted data for easier analysis.
+   - **SQL**: 
+     - Further optimized data by normalizing tables and refining data for accurate analysis.
 
-3. **🌍 Geographic Analysis**
-   - Churn Rate by State (Top 5):
-     - Jammu: 57.2%
-     - Assam: 38.1%
-     - Jharkhand: 34.5%
-     - Chhattisgarh: 30.5%
-     - Delhi: 29.9%
+### 3. **Data Visualization**
+   - **Power BI** was used to create an interactive dashboard that highlights key metrics such as:
+     - **Demographics**: Distribution of survey takers by country.
+     - **Job Titles**: Average salaries by job roles.
+     - **Programming Languages**: Popular choices among different roles.
+     - **Job Satisfaction**: Insights on work-life balance and salary satisfaction.
+     - **Ease of Entry**: Respondents’ opinions on the difficulty of breaking into the data field.
 
-4. **💳 Account Information**
-   - Churn Rate by Payment Method:
-     - Mailed: 37.8%
-     - Bank Withdrawal: 34.4%
-     - Credit Card: 14.8%
-   - Churn Rate by Contract:
-     - Month-to-Month: 46.5%
-     - One Year: 11.0%
-     - Two Year: 2.7%
-   - Total Customer and Churn Rate by Tenure Group:
-     - <6 months: 1,058 customers, 26.4% churn rate
-     - 6-12 months: 1,296 customers, 27.2% churn rate
-     - 12-18 months: 997 customers, 26.1% churn rate
-     - 18-24 months: 780 customers, 27.2% churn rate
-     - >24 months: 2,087 customers, 27.5% churn rate
+---
 
-5. **📊 Churn Distribution**
-   - Total Churn by Churn Category:
-     - Competitor: 761
-     - Attitude: 301
-     - Dissatisfaction: 300
-     - Price: 196
-     - Other: 174
+## Key Features of the Dashboard
+- **Country Distribution**: A tree map showing the spread of survey takers across various countries.
+- **Salary Insights**: Bar charts detailing average salaries by job title.
+- **Programming Preferences**: A breakdown of favorite programming languages among data professionals.
+- **Job Satisfaction Gauges**: Visual indicators for satisfaction with work-life balance and salary.
+- **Difficulty to Enter the Field**: Pie chart displaying how survey participants rate the ease of entering the data profession.
 
-6. **🔌 Services Used**
-   - Churn Rate by Internet Type:
-     - Fiber Optic: 41.1%
-     - Cable: 25.7%
-     - DSL: 19.4%
-     - None: 7.8%
-   - Churn by Services:
-     - Unlimited Data: No: 19.9%, Yes: 80.1%
-     - Streaming TV: No: 56.8%, Yes: 43.2%
-     - Streaming Music: No: 61.1%, Yes: 38.9%
-     - Streaming Movies: No: 56.8%, Yes: 43.2%
-     - Premium Support: No: 83.5%, Yes: 16.5%
-     - Phone Service: No: 9.4%, Yes: 90.6%
-     - Paperless Billing: No: 48.2%, Yes: 51.8%
-     - Online Security: No: 61.1%, Yes: 38.9%
-     - Online Backup: No: 71.9%, Yes: 28.1%
-     - Multiple Lines: No: 56.8%, Yes: 43.2%
+---
 
-## Data Handling
-- **Data Source**: Customer records.
-- **Data Cleaning**: Conducted using SQL and Excel, involving removing duplicates, handling missing values, and standardizing entries.
+## Tools & Technologies Used
+- **Data Cleaning**: Microsoft Excel, SQL
+- **Data Visualization**: Power BI
+- **Data Source**: Excel Spreadsheet
 
-## Usage
-- Analyze churn rates by demographic and geographic segments.
-- Understand the impact of payment methods and contract types on churn.
-- Identify reasons for churn and analyze churn by services used.
+---
 
-## Conclusion
-The Churn Analysis Dashboard leverages the power of Excel, SQL, and Power BI to offer interactive insights and facilitate strategic decision-making. Dive into the data and uncover the factors driving customer churn.
+## How to Use
+1. Open the Power BI dashboard file (`.pbix`) to explore and interact with the visualizations.
+2. Utilize slicers and filters to analyze specific segments of the data.
+3. Interpret the results to gain insights into the current trends and challenges faced by data professionals.
+
+---
+
+## Future Enhancements
+- Expand the dataset to include more diverse regions and roles.
+- Integrate advanced analytics, such as predictive modeling, to forecast trends.
+- Automate data cleaning and visualization for real-time updates.
